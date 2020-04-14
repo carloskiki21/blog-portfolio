@@ -12,7 +12,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <a class="navbar-brand" href="index.php">Blog</a>
 
-    <button class="navbar-toggler" data-toggle="collapse" data-targe="zika" aria-controls="zika" aria-expanded="false" aria-label="Toggle navigation" type="button"><span class="navbar-toggler-icon"></span></button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#zika" aria-controls="zika" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
     <div class="collapse navbar-collapse" id="zika">
       <ul class="navbar-nav mr-auto">
