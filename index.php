@@ -1,81 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.css">
-    <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog! woot! woot!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 
-<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
-      <div class="container">
-        <a href="../" class="navbar-brand">Blog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Prices <span class="caret"></span></a>
-              <!-- <div class="dropdown-menu" aria-labelledby="themes">
-                <a class="dropdown-item" href="../default/">Default</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../cerulean/">Cerulean</a>
-                <a class="dropdown-item" href="../cosmo/">Cosmo</a>
-                <a class="dropdown-item" href="../cyborg/">Cyborg</a>
-                <a class="dropdown-item" href="../darkly/">Darkly</a>
-                <a class="dropdown-item" href="../flatly/">Flatly</a>
-                <a class="dropdown-item" href="../journal/">Journal</a>
-                <a class="dropdown-item" href="../litera/">Litera</a>
-                <a class="dropdown-item" href="../lumen/">Lumen</a>
-                <a class="dropdown-item" href="../lux/">Lux</a>
-                <a class="dropdown-item" href="../materia/">Materia</a>
-                <a class="dropdown-item" href="../minty/">Minty</a>
-                <a class="dropdown-item" href="../pulse/">Pulse</a>
-                <a class="dropdown-item" href="../sandstone/">Sandstone</a>
-                <a class="dropdown-item" href="../simplex/">Simplex</a>
-                <a class="dropdown-item" href="../sketchy/">Sketchy</a>
-                <a class="dropdown-item" href="../slate/">Slate</a>
-                <a class="dropdown-item" href="../solar/">Solar</a>
-                <a class="dropdown-item" href="../spacelab/">Spacelab</a>
-                <a class="dropdown-item" href="../superhero/">Superhero</a>
-                <a class="dropdown-item" href="../united/">United</a>
-                <a class="dropdown-item" href="../yeti/">Yeti</a>
-              </div> -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">Flatly <span class="caret"></span></a>
-              <div class="dropdown-menu" aria-labelledby="download">
-                <a class="dropdown-item" target="_blank" href="https://jsfiddle.net/bootswatch/jmg3gykg/">Open in JSFiddle</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../4/flatly/bootstrap.min.css" download>bootstrap.min.css</a>
-                <a class="dropdown-item" href="../4/flatly/bootstrap.css" download>bootstrap.css</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../4/flatly/_variables.scss" download>_variables.scss</a>
-                <a class="dropdown-item" href="../4/flatly/_bootswatch.scss" download>_bootswatch.scss</a>
-              </div>
-            </li> -->
-          </ul>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="index.php">Blog</a>
 
-        </div>
-      </div>
+    <button class="navbar-toggler" data-toggle="collapse" data-targe="zika" aria-controls="zika" aria-expanded="false" aria-label="Toggle navigation" type="button"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="zika">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="applesauce" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Code</a>
+          <div class="dropdown-menu" aria-labelledby="applesauce">
+            <a href="#" class="dropdown-item">Web dev</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="choco" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Art</a>
+          <div class="dropdown-menu" aria-labelledby="choco">
+            <a href="#" class="dropdown-item">Draw</a>
+          </div>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0" action="">
+        <input type="text" placeholder="Search" class="form-control mr-sm-2">
+        <button type="button" class="btn btn-outline-success my-2 my-sm" value="">Submit</button>
+      </form>
     </div>
+  </nav>
 
 
 
-    <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
-    <script src="https://bootswatch.com/_vendor/popper.js/dist/umd/popper.min.js"></script>
-    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://bootswatch.com/_assets/js/custom.js"></script>  
-    <script src="script.js"></script>  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
 </body>
 </html>
