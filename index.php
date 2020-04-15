@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog! woot! woot!</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="blog-styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+
+<!-- <img class="img-responsive" width="100%" src="http://via.placeholder.com/1300x200" alt=""> -->
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <a class="navbar-brand" href="index.php">Blog</a>
@@ -39,6 +41,32 @@
       </form>
     </div>
   </nav>
+
+  <main role="main" class="container">
+    <br /> <br />
+
+    <div class="row">
+      <div class="col-md-8">
+        <img class="img-responsive" width="100%" src="http://via.placeholder.com/750x500" alt="">
+      </div>
+      <div class="col-md-4">
+        <br />
+        <span class="main-article-category">Article category</span>
+        <br />
+        <span class="main-article-tittle">This is the article tittle.. Crazy thing are happening</span>
+        <br />
+        <span>By <span class="autor-name">Kiki</span></span>
+      </div>
+    </div>
+
+    <!-- Next 11:30 -->
+  </main>
+
+  <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+    <div class="footer-copyright py-3 text-center">
+      copyright 2020
+    </div>
+  </footer>
 
 
 
