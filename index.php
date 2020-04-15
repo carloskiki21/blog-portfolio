@@ -60,6 +60,76 @@
     </div>
 
     <!-- Next 11:30 -->
+    <br /> <br />
+    <span class="recent-articles">Recent articles</span>
+    <hr />
+
+    <div class="row">
+
+      <div class="col-md-8">
+
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-responsive" width="100%" src="http://via.placeholder.com/750x500" alt="">
+          </div>
+          <div class="col-md-8">
+            <br />
+            <span class="sub-article-date">April, 14, 2020</span>
+            <br />
+            <span class="sub-article-tittle">This is the tittle of the first sub-article</span>
+            <br />
+            <span class="sub-article-author">By <span class="author-name">Kiki</span></span>
+            <br />
+            <span class="sub-article-category">Article category</span>
+          </div>
+        </div>
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-responsive" width="100%" src="http://via.placeholder.com/750x500" alt="">
+          </div>
+          <div class="col-md-8">
+            <br />
+            <span class="sub-article-date">April, 15, 2020</span>
+            <br />
+            <span class="sub-article-tittle">DAAAAM! 500 more deaths</span>
+            <br />
+            <span class="sub-article-author">By <span class="author-name">Sam</span></span>
+            <br />
+            <span class="sub-article-category">Article category</span>
+          </div>
+        </div>
+        <hr />
+
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-responsive" width="100%" src="http://via.placeholder.com/750x500" alt="">
+          </div>
+          <div class="col-md-8">
+            <br />
+            <span class="sub-article-date">April, 16, 2020</span>
+            <br />
+            <span class="sub-article-tittle">There we go boyz, we diying</span>
+            <br />
+            <span class="sub-article-author">By <span class="author-name">Kiki</span></span>
+            <br />
+            <span class="sub-article-category">Article category</span>
+          </div>
+        </div>
+        <hr />
+
+        <div class="text-right"><span class="demo-link">More...</span></div>
+
+      </div>
+
+      <div class="col-md-4">
+        <span class="sponsor">SPONSOR</span>
+        <br /><br />
+        <img class="img-responsive" width="100%" src="http://via.placeholder.com/600x800" alt="">
+      </div>
+
+    </div>
   </main>
 
   <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
