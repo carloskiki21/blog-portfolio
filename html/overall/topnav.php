@@ -30,7 +30,12 @@
                 <input type="text" placeholder="Search" class="form-control mr-sm-2">
                 <button type="button" class="btn btn-outline-success my-2 my-sm" value="">Submit</button>
             </form>
+            <ul class="navbar-nav mr-lg-0">
+                <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#Login">Login</a></li>
+            </ul>
         </div>
     </nav>
 	
 </section>
+
+<?php include(HTML_DIR . '/public/login.html'); ?>

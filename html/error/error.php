@@ -1,5 +1,5 @@
-<?php
+<?php include(HTML_DIR . 'overall/header.php'); ?>
 
-echo 'ERROR.php'; 
+<?php include(HTML_DIR . 'overall/topnav.php'); ?>
 
-?>
+<?php include(HTML_DIR . 'overall/footer.php'); ?>

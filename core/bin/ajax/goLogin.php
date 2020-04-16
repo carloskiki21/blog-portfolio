@@ -9,3 +9,5 @@
  * @version    my-version
  * ...
  */
+
+echo 'Loged';

@@ -1,5 +1,5 @@
 <?php
 
-include('html/index/error.php');
+include('html/error/error.php');
 
 ?>
