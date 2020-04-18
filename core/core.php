@@ -5,10 +5,10 @@ EL NÚCLEO DE LA APLICACIÓN!
 session_start();
 
 //Constantes de conexión
-define('DB_HOST', '');
-define('DB_USER', '');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', '');
+define('DB_NAME', 'blog');
 
 //Constantes de la APP
 
@@ -26,7 +26,10 @@ define('PHPMAILER_PORT',);
 */
 
 //Estructura
-// require('vendor/autoload.php');
-
+require('vendor/autoload.php');
 require('core/models/class.Conexion.php');
+require('core/bin/functions/Users.php');
+
+$_users = Users();
+
 ?>

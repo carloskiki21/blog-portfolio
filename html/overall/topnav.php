@@ -30,9 +30,18 @@
                 <input type="text" placeholder="Search" class="form-control mr-sm-2">
                 <button type="button" class="btn btn-outline-success my-2 my-sm" value="">Submit</button>
             </form>
-            <ul class="navbar-nav mr-lg-0">
-                <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#Login">Login</a></li>
-            </ul>
+
+            <?php
+
+            if (!isset($_SESSION['app_id'])) {
+                echo '<ul class="navbar-nav mr-lg-0"> <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#Login">Login</a></li></ul>';
+            } else {
+                echo '<ul class="navbar-nav mr-lg-0"> <li class="nav-item"><a href="?view=logout" class="nav-link"> '. strtoupper($_users[$_SESSION['app_id']]['user']) . '</a></li></ul>';
+            }
+            
+            ?>
+
+            
         </div>
     </nav>
 	
