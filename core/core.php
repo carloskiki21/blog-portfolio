@@ -11,9 +11,8 @@ define('DB_PASS', '');
 define('DB_NAME', 'blog');
 
 //Constantes de la APP
-
 define('HTML_DIR', 'html/');
-define('APP_TITTLE', 'Woot woot!');
+define('APP_TITTLE', 'BLOG!! - CRUD');
 define('APP_COPY', 'Copyright &copy; ' . date('Y', time()) . ' ');
 define('APP_URL', 'http://localhost/blog-portfolio/');
 
@@ -30,6 +29,7 @@ require('vendor/autoload.php');
 require('core/models/class.Conexion.php');
 require('core/bin/functions/Users.php');
 
+/* Users funtcion from db */
 $_users = Users();
 
 ?>

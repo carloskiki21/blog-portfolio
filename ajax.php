@@ -2,14 +2,16 @@
 
 if($_POST) {
 
-require('core/core.php');
+    /* Full App ajax control */
+    require 'core/core.php';
 
     switch (isset($_GET['mode']) ? $_GET['mode'] : null) {
-        case 'login':
-            require('core/bin/ajax/goLogin.php');
+
+    case 'login':
+        require 'core/bin/ajax/goLogin.php';
         break;
 
-        default:
+    default:
         header('location: index.php');
         break;
     }
@@ -17,4 +19,4 @@ require('core/core.php');
     header('location: index.php');
 }
 
-?>
+?>´
